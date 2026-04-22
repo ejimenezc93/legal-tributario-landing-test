@@ -21,6 +21,7 @@
       --gold-500: #b08d57;
       --gold-400: #c5a26c;
       --gold-100: #efe5d3;
+      --gold-050: #f7f3ec;
       --white: #ffffff;
       --shadow-soft: 0 24px 60px rgba(15, 23, 32, 0.08);
       --shadow-card: 0 16px 40px rgba(15, 23, 32, 0.06);
@@ -34,7 +35,7 @@
     body {
       font-family: "Inter", system-ui, sans-serif;
       color: var(--navy-900);
-      background: linear-gradient(180deg, #f5f1e8 0%, #fbfaf7 28%, #ffffff 100%);
+      background: linear-gradient(180deg, #f4efe6 0%, #fbfaf7 30%, #ffffff 100%);
     }
 
     h1, h2, .brand-serif {
@@ -346,7 +347,10 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
     <div class="container">
-      <a class="navbar-brand" href="#inicio">Trust Costa Rica</a>
+      <a class="navbar-brand d-flex align-items-center gap-3" href="#inicio">
+        <img src="assets/trust-logo-gold.svg" alt="Trust Costa Rica" style="height: 42px; width: auto;">
+        <span>Trust Costa Rica</span>
+      </a>
       <a class="btn btn-sm btn-outline-light rounded-pill px-3" href="#cta">Agendar asesoría</a>
     </div>
   </nav>
@@ -368,6 +372,7 @@
           </div>
           <div class="col-lg-5">
             <div class="hero-panel">
+              <img src="assets/trust-logo-gold.svg" alt="Logo Trust" class="mb-4" style="height: 92px; width: auto;">
               <h2 class="h3 brand-serif mb-4">Estructura, ahorro y respaldo legal en una sola estrategia</h2>
               <div class="metric-block">
                 <span class="metric-title">Optimización con criterio legal</span>

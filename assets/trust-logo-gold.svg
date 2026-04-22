@@ -1,0 +1,15 @@
+<svg width="720" height="720" viewBox="0 0 720 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="720" height="720" fill="#F7F3EC"/>
+  <g transform="translate(130,95)">
+    <g stroke="#111111" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <path d="M71 215L149 69H190L251 179H210L167 102H149L102 195L71 215Z"/>
+      <path d="M258 70H300L350 160H307L258 70Z"/>
+      <path d="M219 252H261L166 417H123L219 252Z"/>
+      <path d="M71 338L122 429H167L118 338H71Z"/>
+      <path d="M313 252H355L276 398H234L313 252Z"/>
+      <path d="M138 286L218 148"/>
+    </g>
+    <circle cx="190" cy="243" r="14" fill="#B08D57"/>
+  </g>
+  <text x="360" y="620" text-anchor="middle" fill="#111111" font-family="Inter, Arial, sans-serif" font-size="54" letter-spacing="20">TRUST</text>
+</svg>
